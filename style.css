@@ -1,0 +1,102 @@
+* {
+    background-color: #000;
+    position: relative;
+    top: 12px;
+}
+button {
+    background-color: rgb(19, 19, 234);
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 12px;
+    font-family:sans-serif;
+    position: relative;
+    left: 1400px;
+    /* top: 80px; */
+}
+button:hover {
+    background-color: white;
+    cursor: pointer;
+    color: #000;
+  }
+
+#red {
+    /* border: 2px solid pink; */
+    position: relative;
+    right: 115px;
+}
+#green {
+    /* border: 2px solid pink; */
+    position: relative;
+    right: 105px;
+}
+#blue {
+    /* border: 2px solid pink; */
+    position: relative;
+    right: 115px;
+}
+#inpRed {
+    width: 300px;
+    /* color: pink; */
+}
+#inpGreen {
+    width: 300px;
+}
+#inpBlue {
+    width: 300px;
+}
+.content {
+    /* border: 2px solid red; */
+    text-align: center;
+}
+
+p { 
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+#red::first-letter {
+    color: red;
+    font-size: 50px;
+ }
+ #green::first-letter {
+    color: green;
+    font-size: 50px;
+
+ }
+ #blue::first-letter {
+    color: blue;
+    font-size: 50px;
+
+ }
+ 
+ div {
+    position: relative;
+    right: 30px;
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.inputs {
+    /* border: 2px solid red; */
+    position: relative;
+    right: 320px;
+} 
+/* span {
+    color: #fff;
+    position: relative;
+    top: 8px;
+    left: 500px;
+    /* margin-top: 20px; */
+    /* text-align: center; */
+    /* border: 2px solid white; */
+    /* outline: 2px solid white; */
+    /* padding: 10px ; */
+    /* display: block; */
+    /* font-size: 50px; */
+    /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+/* } */ 
