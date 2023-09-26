@@ -1,4 +1,4 @@
-# Color Range
+# Color Range :bulb:
 - Simple Color Range Using Html5 CSS3 and JavaScript.
 
 ## :camera_flash: Screenshoot
