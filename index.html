@@ -10,17 +10,17 @@
 </head>
 
 <body>
-    <button>color</button>
-
-    <div class="content">
+    <div class="wrapper">
         <div class="inputs">
-            <div id="red">Red</div><input type="range" id="inpRed" min="0" max="255" value="0" oninput="change()">
-            <div id="green">Green</div><input type="range" id="inpGreen" min="0" max="255" value="0" oninput="change()">
-            <div id="blue">Blue</div> <input type="range" id="inpBlue" min="0" max="255" value="0" oninput="change()">
+            <div class="block-one">Red</div>
+            <input type="range" id="red-input" min="0" max="255" value="0" oninput="updateColor()">
+            <div class="block-two">Green</div>
+            <input type="range" id="green-input" min="0" max="255" value="0" oninput="updateColor()">
+            <div class="block-three">Blue</div>
+            <input type="range" id="blue-input" min="0" max="255" value="0" oninput="updateColor()">
         </div>
-        <!-- <br> -->
-
-        <p class="para"> Lorem, ipsum dolor sit amet consectetur </p>
+    
+        <p class="lorem-text"> Lorem, ipsum dolor sit amet consectetur </p>
 
     </div>
     <script src="script.js"></script>
