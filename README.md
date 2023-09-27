@@ -1,7 +1,7 @@
 # Text Color Range :bulb:
 <a name="readme-top"></a>
 
-- Simple text Color range that observe any color change and update text with the exact color, using Html5 CSS3 and JavaScript.
+- Simple text Color range that observe any color change and update text with the exact color. using Html5, CSS3, and JavaScript.
 
 ## :camera_flash: Screenshoot
 
